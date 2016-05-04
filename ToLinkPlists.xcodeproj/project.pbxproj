@@ -14,6 +14,9 @@
 		8E46F3231CD7A2730041643B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E46F3211CD7A2730041643B /* LaunchScreen.storyboard */; };
 		8E46F32E1CD7A2730041643B /* ToLinkPlistsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E46F32D1CD7A2730041643B /* ToLinkPlistsTests.swift */; };
 		8E46F3391CD7A2730041643B /* ToLinkPlistsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E46F3381CD7A2730041643B /* ToLinkPlistsUITests.swift */; };
+		8E46F3471CD7A2940041643B /* Plist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E46F3461CD7A2940041643B /* Plist.swift */; };
+		8E46F3491CD7A9750041643B /* 0HistoryOfUniverse.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E46F3481CD7A9750041643B /* 0HistoryOfUniverse.plist */; };
+		8E46F34B1CD7A99F0041643B /* 2HumanPrehistory.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E46F34A1CD7A99F0041643B /* 2HumanPrehistory.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		8E46F3341CD7A2730041643B /* ToLinkPlistsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToLinkPlistsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E46F3381CD7A2730041643B /* ToLinkPlistsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToLinkPlistsUITests.swift; sourceTree = "<group>"; };
 		8E46F33A1CD7A2730041643B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E46F3461CD7A2940041643B /* Plist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plist.swift; sourceTree = "<group>"; };
+		8E46F3481CD7A9750041643B /* 0HistoryOfUniverse.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = 0HistoryOfUniverse.plist; path = "../../../../Desktop/0History of universe/PlistFiles/0HistoryOfUniverse.plist"; sourceTree = "<group>"; };
+		8E46F34A1CD7A99F0041643B /* 2HumanPrehistory.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = 2HumanPrehistory.plist; path = "../../../../Desktop/2 timeline human prehistory/2HumanPrehistory.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,15 @@
 		8E46F3171CD7A2730041643B /* ToLinkPlists */ = {
 			isa = PBXGroup;
 			children = (
+				8E46F34A1CD7A99F0041643B /* 2HumanPrehistory.plist */,
+				8E46F3481CD7A9750041643B /* 0HistoryOfUniverse.plist */,
 				8E46F3181CD7A2730041643B /* AppDelegate.swift */,
 				8E46F31A1CD7A2730041643B /* ViewController.swift */,
 				8E46F31C1CD7A2730041643B /* Main.storyboard */,
 				8E46F31F1CD7A2730041643B /* Assets.xcassets */,
 				8E46F3211CD7A2730041643B /* LaunchScreen.storyboard */,
 				8E46F3241CD7A2730041643B /* Info.plist */,
+				8E46F3461CD7A2940041643B /* Plist.swift */,
 			);
 			path = ToLinkPlists;
 			sourceTree = "<group>";
@@ -230,7 +239,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E46F3231CD7A2730041643B /* LaunchScreen.storyboard in Resources */,
+				8E46F34B1CD7A99F0041643B /* 2HumanPrehistory.plist in Resources */,
 				8E46F3201CD7A2730041643B /* Assets.xcassets in Resources */,
+				8E46F3491CD7A9750041643B /* 0HistoryOfUniverse.plist in Resources */,
 				8E46F31E1CD7A2730041643B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E46F3471CD7A2940041643B /* Plist.swift in Sources */,
 				8E46F31B1CD7A2730041643B /* ViewController.swift in Sources */,
 				8E46F3191CD7A2730041643B /* AppDelegate.swift in Sources */,
 			);
@@ -482,6 +494,7 @@
 				8E46F33F1CD7A2730041643B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E46F3401CD7A2730041643B /* Build configuration list for PBXNativeTarget "ToLinkPlistsTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +503,7 @@
 				8E46F3421CD7A2730041643B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E46F3431CD7A2730041643B /* Build configuration list for PBXNativeTarget "ToLinkPlistsUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +512,7 @@
 				8E46F3451CD7A2730041643B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
